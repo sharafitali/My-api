@@ -68,7 +68,7 @@ app.use((err, req, res, next) => {
 
 // ! Starting message
 app.get("/", (req, res) => {
-  return res.status(200).send("Welcome to OutBack Backend");
+  return res.status(200).send("Hi, Welcome to OutBack Backend");
 });
 
 // ! Swagger
